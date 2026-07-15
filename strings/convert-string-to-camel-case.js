@@ -1,7 +1,7 @@
 // Kata : Convert string to camel case — 6kyu
 // Objectif : convertir une chaîne de caractère en camelCase
 
-function toCamelCase(str) {
+export default function toCamelCase(str) {
     if (!str) return str;
 
     return str
@@ -10,9 +10,4 @@ function toCamelCase(str) {
         .join("");
 }
 
-console.log("-------------");
-console.log(toCamelCase(''), '');
-console.log(toCamelCase("the_stealth_warrior"), "theStealthWarrior");
-console.log(toCamelCase("The-Stealth-Warrior"), "TheStealthWarrior");
-console.log(toCamelCase("A-B-C"), "ABC");
-console.log("-------------");
+// npm test 
