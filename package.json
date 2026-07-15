@@ -1,0 +1,27 @@
+{
+  "name": "codewars-solutions",
+  "version": "1.0.0",
+  "description": "Dépôt regroupant mes solutions aux katas [Codewars](https://www.codewars.com), réalisés dans le cadre de ma progression en algorithmie et en JavaScript.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeRonin-VCO/codeWars-solutions.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CodeRonin-VCO/codeWars-solutions/issues"
+  },
+  "homepage": "https://github.com/CodeRonin-VCO/codeWars-solutions#readme",
+  "devDependencies": {
+    "jest": "^30.4.2"
+  }
+}
