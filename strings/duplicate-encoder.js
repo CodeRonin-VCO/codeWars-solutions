@@ -2,7 +2,7 @@
 // Objectif : convertir une chaîne de caractère en "(" si le caractère n'apparaît qu'une fois sinon ")" (insensible à la casse)
 
 
-function duplicateEncode(word) {
+export default function duplicateEncode(word) {
     const letters = word.toLowerCase().split("");
     return letters
         .map(l => {
@@ -15,8 +15,4 @@ function duplicateEncode(word) {
         .join("");
 }
 
-console.log("-------------");
-console.log(duplicateEncode("din")); // "((("
-console.log(duplicateEncode("recede")); // "()()()"
-console.log(duplicateEncode("Success")); // ")())())"
-console.log("-------------");
+// npm test
